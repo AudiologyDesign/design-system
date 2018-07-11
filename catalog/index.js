@@ -140,6 +140,11 @@ const pages = [
         path: "/homepage-standard",
         title: "Typical",
         content: pageLoader(() => import("./docs/homepage/typical.md"))
+      },
+      {
+        path: "/homepage-services",
+        title: "Services",
+        content: pageLoader(() => import("./docs/homepage/services.md"))
       }
     ]
   }
