@@ -1,0 +1,1 @@
+All style options are available as static banners. 
