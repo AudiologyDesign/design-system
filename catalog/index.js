@@ -145,6 +145,26 @@ const pages = [
         path: "/homepage-services",
         title: "Services",
         content: pageLoader(() => import("./docs/homepage/services.md"))
+      },
+      {
+        path: "/logo-bar",
+        title: "Logo Bar",
+        content: pageLoader(() => import("./docs/homepage/logo-bar.md"))
+      }
+    ]
+  },
+  {
+    title: "Footers",
+    pages: [
+      {
+        path: "/footer-basic.md",
+        title: "Basic",
+        content: pageLoader(() => import("./docs/footer/basic.md"))
+      },
+      {
+        path: "/standard-footer",
+        title: "Standard Footer",
+        content: pageLoader(() => import("./docs/footer/standard-footer.md"))
       }
     ]
   }

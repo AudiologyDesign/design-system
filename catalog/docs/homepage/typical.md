@@ -1,13 +1,11 @@
-## 2 Column Examples
-
-### Standard (content aligned middle)
+## Content aligned middle
 
 ```image
 plain: true
 src: "/homepage/2-col-standard.png"
 ```
 
-#### Structure
+### Structure
 
 ```code
 lang: html
@@ -19,7 +17,7 @@ collapsed: true
 </div>
 ```
 
-#### Styling Options
+### Styling Options
 
 ```code
 lang: css
@@ -31,14 +29,14 @@ collapsed: true
 );
 ```
 
-### Standard (content aligned bottom)
+## Content aligned bottom
 
 ```image
 plain: true
 src: "/homepage/2-col-align-bottom.png"
 ```
 
-#### Structure
+### Structure
 
 ```code
 lang: html
@@ -50,7 +48,7 @@ collapsed: true
 </div>
 ```
 
-#### Styling Options
+### Styling Options
 
 ```code
 lang: css
@@ -61,7 +59,7 @@ collapsed: true
 );
 ```
 
-### Standard (2 Column with background)
+## 2 column with background
 
 There will be instances where you will have a homepage content block where the background image will need to be hidden on smaller viewports due to the text overlapping the background image.
 
@@ -72,7 +70,7 @@ plain: true
 src: "/homepage/2-column-bg.png"
 ```
 
-#### Structure
+### Structure
 
 ```code
 lang: html
@@ -83,7 +81,7 @@ collapsed: true
 </div>
 ```
 
-#### Styling Options
+### Styling Options
 
 ```code
 lang: css
@@ -97,14 +95,14 @@ collapsed: true
 );
 ```
 
-### Standard (2 Column with background with offset)
+## 2 column with background with offset
 
 ```image
 plain: true
 src: "/homepage/2-column-bg-offset.png"
 ```
 
-#### Structure
+### Structure
 
 ```code
 lang: html
@@ -115,7 +113,7 @@ collapsed: true
 </div>
 ```
 
-#### Styling Options
+### Styling Options
 
 ```code
 lang: css
@@ -127,7 +125,7 @@ collapsed: true
 );
 ```
 
-### Standard (Multi Column)
+## Multi column
 
 There will be instances where you will have a homepage content block with multiple rows and columns. This is an example on where you will need to add the HTML structure to the homepage fragment due to the complexity.
 
@@ -136,7 +134,7 @@ plain: true
 src: "/homepage/multi-column.png"
 ```
 
-#### Structure
+### Structure
 
 ```code
 lang: html
@@ -154,7 +152,7 @@ collapsed: true
 </div>
 ```
 
-#### Styling Options
+### Styling Options
 
 ```code
 lang: css
@@ -162,5 +160,37 @@ collapsed: true
 ---
 @include standard-block(
 	$block-multi-row: true
+);
+```
+
+## Single Column (Centered)
+
+```image
+plain: true
+src: "homepage/1-column-centered.png"
+```
+
+### Structure
+
+```code
+lang: html
+collapsed: true
+---
+<div class="row align-center">
+	<div class="medium-8">{{{fragment.section-#}}}</div>
+</div>
+```
+
+### Styling Options
+
+```code
+lang: css
+collapsed: true
+---
+@include standard-block(
+	$block-cover-img: true,
+	$block-bg-img: 'image.jpg',
+	$block-centered-text: true,
+	$block-white-text: true
 );
 ```
