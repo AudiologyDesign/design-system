@@ -30,6 +30,11 @@ const pages = [
         path: "/favicon",
         title: "Favicon",
         content: pageLoader(() => import("./docs/development/favicon.md"))
+      },
+      {
+        path: "/image-optimization",
+        title: "Image Optimization",
+        content: pageLoader(() => import("./docs/development/image-optimization.md"))
       }
     ]
   },
@@ -167,6 +172,11 @@ const pages = [
         content: pageLoader(() => import("./docs/footer/standard-footer.md"))
       }
     ]
+  },
+  {
+    path: "/geo-pages",
+    title: "Geo Pages",
+    content: pageLoader(() => import("./docs/geo-page/geo-page.md"))
   }
 ];
 
