@@ -6,7 +6,8 @@ plain: true
 src: "call-to-actions/cta-2-column.png"
 ```
 
-#### HTML
+
+### CMS Content
 
 ```code
 collapsed: true

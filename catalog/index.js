@@ -155,6 +155,11 @@ const pages = [
         path: "/logo-bar",
         title: "Logo Bar",
         content: pageLoader(() => import("./docs/homepage/logo-bar.md"))
+      },
+      {
+        path: "/testimonial-slider",
+        title: "Testimonial Slider",
+        content: pageLoader(() => import("./docs/homepage/testimonials.md"))
       }
     ]
   },

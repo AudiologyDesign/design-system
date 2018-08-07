@@ -10,10 +10,13 @@ This will be used specifically for the homepage of a site.
 ## Partial Files
 
 * `html-top.mustache`
-This will house <html> to the opening of `.page-wrapper` and the Title Tag of a site. We have planned adding a fragment for client js scripts to be added. 
+This will house <html> to the opening of `.page-wrapper` and the Title Tag of a site. We have planned adding a fragment for client .js scripts to be added. 
 
 * `header.mustache`
 This will have the header to the navigation. Code will differ between all versions of headers used.
+
+* `logo.mustache`
+Logo will be placed here.
 
 * `nav-responsive.mustache`
 Will be in the header.mustache file. This is only used for our responsive navigation menu.

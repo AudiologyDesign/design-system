@@ -1,0 +1,2 @@
+webpackJsonp([10],{794:function(e,t,n){var a=n(15),o=n(45),r=n(289).PageRenderer;r.__esModule&&(r=r.default);var s=o({displayName:"WrappedPageRenderer",getInitialState:function(){return{content:n(823)}},componentWillMount:function(){},render:function(){return a.createElement(r,Object.assign({},this.props,{content:this.state.content}))}});s.__catalog_loader__=!0,e.exports=s},823:function(e,t){e.exports="All style options are available as static banners. "}});
+//# sourceMappingURL=10.67aa9279.chunk.js.map

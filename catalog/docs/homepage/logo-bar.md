@@ -3,7 +3,7 @@ plain: true
 src: "homepage/logo-bar.png"
 ```
 
-### HTML Structure
+### CMS Content
 
 ```code
 lang: html

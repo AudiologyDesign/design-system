@@ -6,6 +6,17 @@ plain: true
 src: "call-to-actions/cta-basic.png"
 ```
 
+#### CMS Content
+```code
+lang: html
+collapsed: true
+---
+<h3>Title Heading</h3>
+<p>Sollicitudin vulputate porta ac consectetur vestibulum at eros fusce dapibus, tellus.</p>
+<div><a href="#" class="btn">Button</a></div>
+```
+
+
 #### HTML
 
 ```code
@@ -32,6 +43,16 @@ collapsed: true
 ```image
 plain: true
 src: "call-to-actions/cta-basic-icon-style-1.png"
+```
+
+#### CMS Content
+```code
+lang: html
+collapsed: true
+---
+<h3>Title Heading</h3>
+<p>Sollicitudin vulputate porta ac consectetur vestibulum at eros fusce dapibus, tellus.</p>
+<div><a href="#" class="btn">Button</a></div>
 ```
 
 #### HTML
