@@ -1,7 +1,13 @@
+## Option 1
+
 ```image
 plain: true,
 src: "footers/3-column-footer.png"
 ```
+
+Generally the `header-info` fragment is used in both the header and footer contact area.
+
+There is another fragment placed below the logo to be used generally for mission statements.
 
 ```code
 lang: true
@@ -51,9 +57,53 @@ collapsed: tru
 </footer>
 ```
 
-Generally the `header-info` fragment is used in both the header and footer contact area.
+## Option 2
 
-There is another fragment placed below the logo to be used generally for mission statements.
+```image
+plain: true,
+src: "footers/3-column-footer_option-2.png"
+```
+
+```code
+lang: true,
+collapsed: true
+---
+<div class="top-btn">
+  <a class="gototop" href="#"><i class="fa fa-chevron-circle-up"></i></a>
+</div>
+<footer>
+  <div class="footer-nav-wrap">
+    <div class="row">
+      <div class="medium-5 columns">
+        <nav class="footer-nav" >
+          <h4>Menu</h4>
+          <ul class="list-inline">
+            {{{menu.footer}}}
+          </ul>
+        </nav>
+      </div>
+      <div class="medium-3 columns">
+        <div class="footer-phone">
+          {{{fragment.footer-phone}}}
+        </div>
+      </div>
+      <div class="medium-3 columns end">
+        <div class="footer-email">
+          {{{fragment.footer-email}}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-meta-container">
+    <div class="row">
+      <div class="medium-12 columns">
+        <span>Site Designed by <a href="https://www.audiologydesign.com" rel="nofollow" target="_blank">Audiology Design</a> | {{year}} All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+```
 
 ### Style Options
 

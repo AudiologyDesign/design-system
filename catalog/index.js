@@ -160,6 +160,11 @@ const pages = [
         path: "/testimonial-slider",
         title: "Testimonial Slider",
         content: pageLoader(() => import("./docs/homepage/testimonials.md"))
+      },
+      {
+        path: "/manufacturers",
+        title: "Manufacturers",
+        content: pageLoader(() => import("./docs/homepage/manufacturer.md"))
       }
     ]
   },
@@ -173,8 +178,8 @@ const pages = [
       },
       {
         path: "/standard-footer",
-        title: "Standard Footer",
-        content: pageLoader(() => import("./docs/footer/standard-footer.md"))
+        title: "3 Column Footer",
+        content: pageLoader(() => import("./docs/footer/3-column-footer.md"))
       }
     ]
   },

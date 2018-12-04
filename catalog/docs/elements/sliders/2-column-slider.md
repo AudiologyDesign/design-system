@@ -1,3 +1,5 @@
+## Option 1
+
 ```image
 plain: true
 src: "sliders/slide-2-column.png"
@@ -57,6 +59,8 @@ collapsed: true
 	<div id="slide-pager"></div>
 </section>
 ```
+
+
 
 ### Styling and Options
 

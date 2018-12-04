@@ -1,3 +1,5 @@
+## Option 1
+
 ```image
 plain: true
 src: "footers/basic-footer.png"
@@ -35,6 +37,53 @@ collapsed: true
 </footer>
 ```
 
+## Option 2
+
+```image
+plain: true
+src: "footers/basic-footer_option-2.png"
+```
+
+```code
+lang: true,
+collapsed: true
+---
+<div class="top-btn">
+  <a class="gototop" href="#"><i class="fa fa-chevron-circle-up"></i></a>
+</div>
+<footer>
+  <div class="footer-nav-wrap">
+    <div class="row">
+      <div class="medium-12 columns">
+        <nav class="footer-nav" >
+          <ul class="list-inline text-centered">
+            {{{menu.footer}}}
+          </ul>
+        </nav>
+      </div>
+    </div>
+    {{#menu.geo-service-areas}}
+      <div class="row">
+        <div class="columns">
+          <div class="geo-service-areas text-centered">
+            <h4 class="white">Areas We Serve</h4>
+            <ul class="list-inline">
+              {{{menu.geo-service-areas}}}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {{/menu.geo-service-areas}}
+  </div>
+  <div class="footer-meta-container">
+    <div class="row">
+      <div class="medium-12 columns">
+        <span>Site Designed by <a href="https://www.audiologydesign.com" rel="nofollow" target="_blank">Audiology Design</a> | {{year}} All Rights Reserved</span>
+      </div>
+    </div>
+  </div>
+</footer>
+```
 ### Style Options
 
 Settings Found in `_site-settings.scss`.
