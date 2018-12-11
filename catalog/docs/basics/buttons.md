@@ -101,3 +101,23 @@ src: "buttons/btn-white-solid.png"
 ```code 
 <a href="#" class="btn btn-white-solid">Learn More</a>
 ```
+
+## Pseudo Elements
+
+```image
+plain: true,
+src: "buttons/btn-pseudo.png"
+```
+
+Adding pseudo elements before or after text in buttons. This can be added to all button options.
+
+```code
+lang: css,
+collapsed: true
+---
+&::after {
+	content: "\f061";
+	font-family: 'FontAwesome';
+	margin-left: 15px;
+}
+```
