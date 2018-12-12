@@ -187,6 +187,30 @@ const pages = [
     path: "/geo-pages",
     title: "Geo Pages",
     content: pageLoader(() => import("./docs/geo-page/geo-page.md"))
+  },{
+    title: "Widgets/Components",
+    pages: [
+      {
+        path: "/media-box",
+        title: "Media Box (Staff & Map)",
+        content: pageLoader(() => import("./docs/widgets/widgets.md"))
+      },
+      {
+        path: "/hearing-aids",
+        title: "Hearing Aids",
+        content: pageLoader(() => import("./docs/components/hearing-aids.md"))
+      },
+      {
+        path: "/survey",
+        title: "Hearing Survey",
+        content: pageLoader(() => import("./docs/widgets/survey.md"))
+      },
+      {
+        path: "/blog-news",
+        title: "Blog & News Feed",
+        content: pageLoader(() => import("./docs/widgets/blog-news.md"))
+      }
+    ]
   }
 ];
 
