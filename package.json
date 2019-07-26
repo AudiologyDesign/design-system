@@ -1,9 +1,7 @@
 {
   "name": "ad-design-system",
   "description": "",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "scripts": {
     "catalog-start": "catalog start",
     "catalog-build": "catalog build"
